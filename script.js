@@ -31,7 +31,7 @@ function showMessage(response) {
     const maxHeight = window.innerHeight - noButton.offsetHeight;
 
     noButton.style.position = "absolute";
-    document.getElementsByClassName("image")[0].src = "main/gun.gif";
+    document.getElementsByClassName("image")[0].src = "kochaamjulcie/gun.gif";
 
     const randomX = Math.max(0, Math.floor(Math.random() * maxWidth));
     const randomY = Math.max(0, Math.floor(Math.random() * maxHeight));
@@ -61,7 +61,7 @@ function showMessage(response) {
     yesMessage.textContent = "No i super, Kocham Cię😻😻";
     yesMessage.style.display = "block";
     yesMessage.style.fontStyle = "normal";
-    document.getElementsByClassName("image")[0].src = "main/dance.gif";
+    document.getElementsByClassName("image")[0].src = "kochaamjulcie/dance.gif";
 
     const yesButton = document.getElementById("yesButton");
     if (yesButton) {
